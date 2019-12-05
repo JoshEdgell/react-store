@@ -1,6 +1,4 @@
-// const express           = require('express');
 const products          = require('../models/products.js');
-// const router            = express.Router();
 
 module.exports = {
     findAll: function(req,res) {
