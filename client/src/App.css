@@ -1,0 +1,39 @@
+:root {
+    --light-gray: #cfcfcf;
+    --medium-gray: #858585;
+    --dark-gray: #525252;
+    --red: #f33030;
+}
+
+/* Navbar */
+
+#view-toggle {
+    position: absolute;
+}
+#navbar-logo {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#cart-number {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    padding: 0px 3px 0px 4px;
+    left: 15px;
+    top: -8px;
+    border-radius: 5px;
+    background-color: var(--red);
+    font-size: 0.75rem;
+    opacity: .9
+}
+
+/* Dropdown */
+.dropdown-item {
+    text-transform: capitalize;
+}
+
+.dropdown-item:focus {
+    background-color: var(--light-gray);
+    outline: 5px auto var(--dark-gray);
+}
