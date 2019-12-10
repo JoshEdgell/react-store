@@ -37,3 +37,62 @@
     background-color: var(--light-gray);
     outline: 5px auto var(--dark-gray);
 }
+
+/* Manager Components */
+#manager-components {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-divs {
+    position: relative;
+    width: 50%;
+    height: 20rem;
+}
+
+/* Create */
+#create-products {
+    border: 1px solid red;
+    height: 20rem;
+}
+
+#create-products .toggle {
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+}
+
+/* View */
+#view-products {
+    border: 1px solid blue;
+}
+
+#view-products .toggle {
+    position: absolute;
+    left: 1rem;
+    bottom: 1rem;
+}
+
+/* Update */
+#update-products {
+    border: 1px solid green;
+}
+
+#update-products .toggle {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+/* Delete */
+#delete-products {
+    border: 1px solid orange;
+}
+
+#delete-products .toggle {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+}
