@@ -56,6 +56,9 @@
 #create-products {
     border: 1px solid red;
     height: 20rem;
+    -webkit-transition: height 1s linear, width 1s linear;
+    transition: height 1s linear, width 1s linear;
+    overflow: hidden;
 }
 
 #create-products .toggle {
@@ -64,9 +67,32 @@
     bottom: 1rem;
 }
 
+#create-products.expanded {
+    width: 100%;
+    height: 40rem;
+}
+
+#create-products.collapsed {
+    width: 0;
+    height: 0;
+}
+
 /* View */
 #view-products {
     border: 1px solid blue;
+    -webkit-transition: height 1s linear, width 1s linear;
+    transition: height 1s linear, width 1s linear;
+    overflow: hidden;
+}
+
+#view-products.expanded {
+    width: 100%;
+    height: 40rem;
+}
+
+#view-products.collapsed {
+    width: 0;
+    height: 0;
 }
 
 #view-products .toggle {
